@@ -1,28 +1,15 @@
 from flask import Flask, render_template, request
 import os
-import joblib
-
+import pickle
+import logging.handlers
+import logging
 
 webapp_root = "webapp"
 
 static_dir = os.path.join(webapp_root, "static")
 template_dir = os.path.join(webapp_root, "templates")
 
-
-def predict(data):
-    model_dir_path = "/home/shubham/Dhan_deploy/End_To_End_ML_Project/model.joblib"
-    model = joblib.load(model_dir_path)
-    prediction = model.predict(data).tolist()[0]
-    return prediction
-
-def form_response(dict_request):
-    data = dict_request.values()
-    data = [list(map(float, data))]
-    response = predict(data)
-    return response
-    
 app = Flask(__name__, static_folder=static_dir,template_folder=template_dir)
-
 
 @app.route("/", methods=["GET", "POST"])
 def index():
@@ -30,8 +17,24 @@ def index():
         try:
             if request.form:
                 dict_req = dict(request.form)
-                response = form_response(dict_req)
-                return render_template("index.html", response=response)
+                # response = form_response(dict_req)
+                data = dict_req.values()
+                data=list(data)
+                data[-1]=[1 if data[-1]=="1" else 0][0]
+                data = [list(map(float, data))]
+                
+                # response = predict(data)
+                model_dir_path = "./regressor.pkl"
+                model = pickle.load(open(model_dir_path,"rb"))
+                scaler_x_path= "./Scaler_x.pkl"
+                scaler_x=pickle.load(open(scaler_x_path,"rb"))
+                data=scaler_x.transform(data)
+                prediction = model.predict(data)
+                scaler_y_path= "./Scaler_y.pkl"
+                scaler_y=pickle.load(open(scaler_y_path,"rb"))
+                prediction=scaler_y.inverse_transform(prediction)[0][0]
+                
+                return render_template("index.html", response=prediction)
         except Exception as e:
             print("e")
             error = {"error": e}

@@ -1,0 +1,63 @@
+2022-08-18 17:36:35,926 WARNING  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment. => _log
+2022-08-18 17:36:35,926 INFO  * Running on http://199.199.50.93:5000/ (Press CTRL+C to quit) => _log
+2022-08-18 17:36:35,929 INFO  * Restarting with watchdog (inotify) => _log
+2022-08-18 17:36:36,085 WARNING  * Debugger is active! => _log
+2022-08-18 17:36:36,228 INFO  * Debugger PIN: 139-401-739 => _log
+2022-08-18 17:37:00,158 INFO 199.199.50.93 - - [18/Aug/2022 17:37:00] "GET / HTTP/1.1" 200 - => _log
+2022-08-18 17:37:00,601 INFO 199.199.50.93 - - [18/Aug/2022 17:37:00] "[33mGET /static/css/main.css HTTP/1.1[0m" 404 - => _log
+2022-08-18 17:37:00,604 INFO 199.199.50.93 - - [18/Aug/2022 17:37:00] "[33mGET /static/script/index.js HTTP/1.1[0m" 404 - => _log
+2022-08-18 17:37:00,668 INFO 199.199.50.93 - - [18/Aug/2022 17:37:00] "[33mGET /static/script/index.js HTTP/1.1[0m" 404 - => _log
+2022-08-18 17:37:04,152 INFO 199.199.50.93 - - [18/Aug/2022 17:37:04] "GET / HTTP/1.1" 200 - => _log
+2022-08-18 17:37:04,233 INFO 199.199.50.93 - - [18/Aug/2022 17:37:04] "[33mGET /static/css/main.css HTTP/1.1[0m" 404 - => _log
+2022-08-18 17:37:04,235 INFO 199.199.50.93 - - [18/Aug/2022 17:37:04] "[33mGET /static/script/index.js HTTP/1.1[0m" 404 - => _log
+2022-08-18 17:37:04,280 INFO 199.199.50.93 - - [18/Aug/2022 17:37:04] "[33mGET /static/script/index.js HTTP/1.1[0m" 404 - => _log
+2022-08-18 17:37:11,242 INFO dict_req={'carlength': '1', 'carwidth': '1', 'curbweight': '1', 'enginesize': '1', 'horsepower': '1', 'doornumber': '1', 'mpg': '1', 'carbody_sedan': '1'} => index
+2022-08-18 17:37:11,242 INFO data=dict_values(['1', '1', '1', '1', '1', '1', '1', '1']) => form_response
+2022-08-18 17:37:11,248 INFO 199.199.50.93 - - [18/Aug/2022 17:37:11] "POST / HTTP/1.1" 200 - => _log
+2022-08-18 17:37:11,332 INFO 199.199.50.93 - - [18/Aug/2022 17:37:11] "[33mGET /static/css/main.css HTTP/1.1[0m" 404 - => _log
+2022-08-18 17:37:13,198 INFO 199.199.50.93 - - [18/Aug/2022 17:37:13] "GET / HTTP/1.1" 200 - => _log
+2022-08-18 17:37:13,279 INFO 199.199.50.93 - - [18/Aug/2022 17:37:13] "[33mGET /static/css/main.css HTTP/1.1[0m" 404 - => _log
+2022-08-18 17:37:13,281 INFO 199.199.50.93 - - [18/Aug/2022 17:37:13] "[33mGET /static/script/index.js HTTP/1.1[0m" 404 - => _log
+2022-08-18 17:37:13,301 INFO 199.199.50.93 - - [18/Aug/2022 17:37:13] "[33mGET /static/script/index.js HTTP/1.1[0m" 404 - => _log
+2022-08-18 17:38:12,451 INFO  * Detected change in '/home/shubham/Dhan_deploy/End_To_End_ML_Project/tmpnvnlwe38', reloading => _log
+2022-08-18 17:38:12,517 INFO  * Detected change in '/home/shubham/Dhan_deploy/End_To_End_ML_Project/app.py', reloading => _log
+2022-08-18 17:38:13,558 INFO  * Restarting with watchdog (inotify) => _log
+2022-08-18 17:38:13,691 WARNING  * Debugger is active! => _log
+2022-08-18 17:38:13,696 INFO  * Debugger PIN: 443-467-471 => _log
+2022-08-18 17:38:24,038 INFO dict_req={'carlength': '1', 'carwidth': '1', 'curbweight': '1', 'enginesize': '1', 'horsepower': '1', 'doornumber': '1', 'mpg': '1', 'carbody_sedan': '1'} => index
+2022-08-18 17:38:24,061 INFO 199.199.50.93 - - [18/Aug/2022 17:38:24] "POST / HTTP/1.1" 200 - => _log
+2022-08-18 17:38:24,120 INFO 199.199.50.93 - - [18/Aug/2022 17:38:24] "[33mGET /static/css/main.css HTTP/1.1[0m" 404 - => _log
+2022-08-18 17:38:26,334 INFO 199.199.50.93 - - [18/Aug/2022 17:38:26] "GET / HTTP/1.1" 200 - => _log
+2022-08-18 17:38:26,401 INFO 199.199.50.93 - - [18/Aug/2022 17:38:26] "[33mGET /static/css/main.css HTTP/1.1[0m" 404 - => _log
+2022-08-18 17:38:26,403 INFO 199.199.50.93 - - [18/Aug/2022 17:38:26] "[33mGET /static/script/index.js HTTP/1.1[0m" 404 - => _log
+2022-08-18 17:38:26,429 INFO 199.199.50.93 - - [18/Aug/2022 17:38:26] "[33mGET /static/script/index.js HTTP/1.1[0m" 404 - => _log
+2022-08-18 17:39:25,876 INFO  * Detected change in '/home/shubham/Dhan_deploy/End_To_End_ML_Project/tmpuy0woan0', reloading => _log
+2022-08-18 17:39:25,890 INFO  * Detected change in '/home/shubham/Dhan_deploy/End_To_End_ML_Project/app.py', reloading => _log
+2022-08-18 17:39:26,914 INFO  * Restarting with watchdog (inotify) => _log
+2022-08-18 17:39:27,050 WARNING  * Debugger is active! => _log
+2022-08-18 17:39:27,055 INFO  * Debugger PIN: 694-790-555 => _log
+2022-08-18 17:39:37,402 INFO dict_req={'carlength': '1', 'carwidth': '1', 'curbweight': '1', 'enginesize': '1', 'horsepower': '1', 'doornumber': '1', 'mpg': '1', 'carbody_sedan': '1'} => index
+2022-08-18 17:39:37,403 INFO data=['1', '1', '1', '1', '1', '1', '1', '1'] => form_response
+2022-08-18 17:39:37,403 INFO data[-1]=['1', '1', '1', '1', '1', '1', '1', 1] => form_response
+2022-08-18 17:39:37,405 INFO data_float=[[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]] => form_response
+2022-08-18 17:39:40,214 INFO 199.199.50.93 - - [18/Aug/2022 17:39:40] "POST / HTTP/1.1" 200 - => _log
+2022-08-18 17:39:40,287 INFO 199.199.50.93 - - [18/Aug/2022 17:39:40] "[33mGET /static/script/index.js HTTP/1.1[0m" 404 - => _log
+2022-08-18 17:39:40,288 INFO 199.199.50.93 - - [18/Aug/2022 17:39:40] "[33mGET /static/css/main.css HTTP/1.1[0m" 404 - => _log
+2022-08-18 17:39:40,343 INFO 199.199.50.93 - - [18/Aug/2022 17:39:40] "[33mGET /static/script/index.js HTTP/1.1[0m" 404 - => _log
+2022-08-18 17:40:57,850 INFO  * Detected change in '/home/shubham/Dhan_deploy/End_To_End_ML_Project/tmpmrjiupn6', reloading => _log
+2022-08-18 17:40:57,932 INFO  * Detected change in '/home/shubham/Dhan_deploy/End_To_End_ML_Project/app.py', reloading => _log
+2022-08-18 17:40:59,030 INFO  * Restarting with watchdog (inotify) => _log
+2022-08-18 17:40:59,162 WARNING  * Debugger is active! => _log
+2022-08-18 17:40:59,167 INFO  * Debugger PIN: 108-206-127 => _log
+2022-08-18 17:41:15,651 INFO data=['1', '1', '1', '1', '1', '1', '1', '1'] => index
+2022-08-18 17:41:15,652 INFO data[-1]=['1', '1', '1', '1', '1', '1', '1', 1] => index
+2022-08-18 17:41:15,653 INFO data_float=[[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]] => index
+2022-08-18 17:41:15,987 INFO 199.199.50.93 - - [18/Aug/2022 17:41:15] "POST / HTTP/1.1" 200 - => _log
+2022-08-18 17:41:16,043 INFO 199.199.50.93 - - [18/Aug/2022 17:41:16] "[33mGET /static/css/main.css HTTP/1.1[0m" 404 - => _log
+2022-08-18 17:41:16,046 INFO 199.199.50.93 - - [18/Aug/2022 17:41:16] "[33mGET /static/script/index.js HTTP/1.1[0m" 404 - => _log
+2022-08-18 17:41:16,098 INFO 199.199.50.93 - - [18/Aug/2022 17:41:16] "[33mGET /static/script/index.js HTTP/1.1[0m" 404 - => _log
+2022-08-18 17:41:46,706 INFO  * Detected change in '/home/shubham/Dhan_deploy/End_To_End_ML_Project/tmp5cs777tq', reloading => _log
+2022-08-18 17:41:46,721 INFO  * Detected change in '/home/shubham/Dhan_deploy/End_To_End_ML_Project/app.py', reloading => _log
+2022-08-18 17:41:47,797 INFO  * Restarting with watchdog (inotify) => _log
+2022-08-18 17:43:04,362 INFO  * Restarting with watchdog (inotify) => _log
